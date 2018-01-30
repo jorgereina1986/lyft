@@ -21,5 +21,5 @@ function sum(request, response) {
     var x = request.body.x;
     var y = request.body.y;
     var sum = x+y;
-    return sum + '';
+    return sum;
 }
